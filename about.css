@@ -1,0 +1,65 @@
+body{
+    margin: 0 0 0 0;
+    background: url('sunset.jpg');
+    background-size: cover;
+}
+
+.logo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: rgb(26, 24, 24);
+    margin-top: 0.5%;
+    margin-left: 5% ;
+    padding-top: 8px ;
+    font-weight: lighter;
+}
+
+
+.menu{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    position: absolute;
+    top: 0.9%;
+    left: 65%;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    border-bottom: 2px black solid;
+    color: white;
+}
+
+a:active{
+    border-bottom: 2px black solid;
+    color: white;
+}
+
+.about{
+    border-bottom: 2px black solid;
+    color: white;
+}
+
+.passage{
+    border: solid 1px black;
+    position: absolute;
+    left: 34%;
+    width: 33%;
+    top: 17%;
+    border-radius: 30px;
+}
+
+p{
+    padding: 37px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: lighter;
+}

@@ -1,0 +1,93 @@
+body{
+    margin: 0 0 0 0;
+    background: url('sunset.jpg');
+    background-size: cover;
+}
+
+.logo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: rgb(26, 24, 24);
+    margin-top: 0.5%;
+    margin-left: 5% ;
+    padding-top: 8px ;
+    font-weight: lighter;
+}
+
+
+.menu{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    position: absolute;
+    top: 0.9%;
+    left: 65%;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    border-bottom: 2px black solid;
+    color: white;
+}
+
+a:active{
+    border-bottom: 2px black solid;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    top: 97%;
+    left: 45%;
+    color: rgba(8, 8, 8, 0.87);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.intro{
+    position:absolute;
+    top: 20%;
+    left: 5%;
+    width: 40%;
+}
+
+h2{
+    font-size: 2.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+h3{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.onpagebutton{
+    border: solid 2px black;
+    font-size: larger;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.onpagebutton:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.home{
+    border-bottom: 2px black solid;
+    color: white;
+}
